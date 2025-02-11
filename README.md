@@ -7,8 +7,8 @@ tags: 代理池
 categories: 渗透
 ---
 
-链接：https://pan.quark.cn/s/770e41a860f7
-
+链接：[https://pan.quark.cn/s/770e41a860f7](https://pan.quark.cn/s/448f7a4042a8)
+视频对比付费版和免费版的区别:B站:疯狂的杨CC
 github:https://github.com/Sgyling/fifa0
 
 # FIFA0 工具法律责任声明
