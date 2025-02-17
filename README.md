@@ -6,8 +6,11 @@ tags: 代理池
 categories: 渗透
 
 ---
+请查看:fifa0-基于fofa的代理池更换工具.md文件
 
-链接：https://pan.quark.cn/s/d734bd8265f3
+网盘加速链接：[https://pan.quark.cn/s/d734bd8265f3](https://pan.quark.cn/s/d734bd8265f3)
+
+使用教程:yancy77.cn
 
 github:https://github.com/Sgyling/fifa0
 
