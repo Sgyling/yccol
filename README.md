@@ -6,13 +6,22 @@ tags: 代理池
 categories: 渗透
 
 ---
-请查看:fifa0-基于fofa的代理池更换工具.md文件
 
 网盘加速链接：[https://pan.quark.cn/s/d734bd8265f3](https://pan.quark.cn/s/d734bd8265f3)
 
 使用教程:yancy77.cn
 
 github:https://github.com/Sgyling/fifa0
+
+Fifa0更新预告
+
+| 版本      | 本次更新       | 下次更新预告    |
+| --------- | -------------- | --------------- |
+| Fifa0     | 修复了bug      | 暂无            |
+| Fifa0-Pro | 重构了代码逻辑 | 可视化界面      |
+| Fifa0-API | 未更新         | 调取API获取ip池 |
+
+
 
 # :satisfied:FiFa0
 
