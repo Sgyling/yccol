@@ -11,7 +11,7 @@ categories: 渗透
 
 使用教程:yancy77.cn
 
-github:https://github.com/Sgyling/fifa0
+github:[https://github.com/Sgyling/fifa0](https://github.com/Sgyling/yccol)
 
 Fifa0更新预告
 
