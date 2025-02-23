@@ -1,41 +1,157 @@
-# Fifa
 ---
-title: fifa0-全自动代理池更换工具
-date: 2025-02-09 15:46:40
+title: Yccol-全自动代理池更换工具
+date: 2025-02-19 15:46:40
 tags: 代理池
 categories: 渗透
+---
+
+网盘链接：https://pan.quark.cn/s/c360400b30f1
+
+github:https://github.com/Sgyling/yccol
+
+2.22号 Yccol更名为:Yccol
+
+Yccol更新预告
+
+| 版本      | 支持http | 支持socks4 | 支持socks5 | 本次更新内容 |
+| --------- | -------- | ---------- | ---------- | ------------ |
+| Yccol     | √        | ×          | √          | 无           |
+| Yccol-Pro | √        | ×          | √          | 无           |
+| Yccol-API | √        | ×          | ×          | 内测上线     |
+| Yccol-GUi | √        | ×          | ×          | 内测上线     |
+
+
+
+# 更新内容
+
+## 2.23号 Yccol-GUI内测上线
+
+Yccol-GUI是一款获取代理池工具的软件,而且支持验证代理的工具
+
+先看截图:
+
+![](https://pic1.imgdb.cn/item/67bb09fed0e0a243d4029940.png)
+
+这里输入秘钥,临时秘钥ccc后,点击检测秘钥
+
+----
+
+![](https://pic1.imgdb.cn/item/67bb0a47d0e0a243d40299a5.png)
+
+进入后界面如下(目前只开放http)
 
 ---
 
-网盘加速链接：[https://pan.quark.cn/s/d734bd8265f3](https://pan.quark.cn/s/d734bd8265f3)
+直接点击获取ip池,可能需要卡顿一会,这是在获取代理池,
 
-使用教程:yancy77.cn
-
-github:[https://github.com/Sgyling/fifa0](https://github.com/Sgyling/yccol)
-
-Fifa0更新预告
-
-| 版本      | 本次更新       | 下次更新预告    |
-| --------- | -------------- | --------------- |
-| Fifa0     | 修复了bug      | 暂无            |
-| Fifa0-Pro | 重构了代码逻辑 | 可视化界面      |
-| Fifa0-API | 未更新         | 调取API获取ip池 |
+![](https://pic1.imgdb.cn/item/67bb0aafd0e0a243d40299be.png)
 
 
 
-# :satisfied:FiFa0
+----
 
-Fifa0最新更新时间:25年-2月17号
+获取代理后,点击验证ip池,就可以把可用的代理筛选出来
 
-Fifa0最新更新时间:25年-2月-17号
+![](https://pic1.imgdb.cn/item/67bb0afbd0e0a243d4029a38.png)
 
-我们下载以后,双击fifa0运行,即可看到下方的说明以及文件配置用法
+如果想要多筛选两次,那就多点两次验证ip池
+
+----
+
+怎么批量验证自己的ip地址呢?
+
+![](https://pic1.imgdb.cn/item/67bb0b48d0e0a243d4029a60.png)
+
+将自己的ip粘贴到文本框中,即可验证(目前仅支持http代理)
+
+----
+
+其他功能
+
+![](https://pic1.imgdb.cn/item/67bb0b88d0e0a243d4029a7b.png)
+
+---
+
+
+
+
+
+## 2.22号 Yccol更名为:Yccol
+
+## - Yccol-API内测上线
+
+
+
+```
+请求:GET
+API连接:http://api.Yccol.cc:3751/api/users
+参数:key,proxy,area,accuracy
+参数介绍:
+	key(必要的):后面需要跟着自己的秘钥
+	proxy(必要的):当前仅支持http,暂不支持:socks5
+	area(必要的):当前仅支持:all参数,不支持指定地区
+	accuracy(非必要的):支持:1\2\3三个阶段的筛选,(3为精准度最高,每分钟抓取一次。2为筛选两次的ip池地址，5-10分钟抓取一次。1为筛选一次，可用率最低，约120分钟抓取一次)
+
+使用介绍：
+	http://api.Yccol.cc:3751/api/users?key=XXXXXX&proxy=all&area=all&accuracy=1\2\3(选择一个参数即可)
+```
+
+
+
+## 2.20号 Yccol-ProV1.1.1 版本
+
+### Yccol-Pro更新内容
+
+- [优化] - 优化了输出过程,使其输出更加美观
+- [优化] - 优化了代码逻辑
+- [更新] - 更新了 -f ,现在-f 后面可以跟自己所需要的ip源数量了
+- [更新] - socks5代理验证功能添加了多线程处理
+
+## 2.19号V1.1版本
+
+### Yccol-更新内容
+
+- [添加] - 添加了对socks5代理支持
+- [优化] - 优化了部分显示,让其看起来比较好看
+- [优化] - 优化了http代理验证的算法,让http代理延迟更低!也更快!
+
+### Yccol-Pro 更新内容
+
+- [添加] - 添加了对socks5的代理支持
+
+- [添加] - 添加了sosck5代理池的验证功能
+
+- [添加] - 添加了 [-v] 参数,获取当前版本
+
+- [更新] - 参数 -VO 更新为 -vo 参数,
+
+- [更新] - 参数 -A 更新为: -a 参数
+
+- [回退] - 取消了 -VO -V -O 三个参数,用到的不多(依然可以验证ip池)
+
+- [回退] - 取消了 -UP 更新参数,因为最近在部署API的问题,需要经常活动服务器,指不定怎么着就删了
+
+- [优化] - 将http代理获取上限调整到了1000(最终可用大概在1000-5000之间,可能会上下波动)
+
+- [优化] - 将socks5代理获取上限调整到了1000(最终可用大概在400-800之间,可能会上下波动)
+
+- [优化] - 取消掉了一些没用的代码,让应用更加的优美~
+
+  
+
+# :satisfied:Yccol-安装及使用
+
+Yccol更新时间:25年-2月19号
+
+Yccol-Pro更新时间:25年-2月-19号
+
+我们下载以后,双击Yccol运行,即可看到下方的说明以及文件配置用法
 
 ![](https://pic1.imgdb.cn/item/67b2a818d0e0a243d40015c4.png)
 
 ---
 
-# :question:配置环境
+## :question:配置环境
 
 更改config/conf.txt中的数据
 
@@ -67,7 +183,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 
 
-# :ice_hockey:获取ip代理
+## :ice_hockey:获取ip代理
 
 ![](https://pic1.imgdb.cn/item/67b2ab02d0e0a243d4001727.png)
 
@@ -93,7 +209,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ---
 
-# :airplane::验证代理
+## :airplane::验证代理
 
 ![](https://pic1.imgdb.cn/item/67b2ad59d0e0a243d40017ad.png)
 
@@ -103,7 +219,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ---
 
-# :factory::验证自己的代理
+## :factory::验证自己的代理
 
 我们除了可以验证使用1参数生成的代理,也可以用来验证自己的代理池ip,
 
@@ -117,7 +233,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ![](https://pic1.imgdb.cn/item/67b2ae35d0e0a243d40017e2.png)
 
-存放完成后,保存,运行fifa0.exe
+存放完成后,保存,运行Yccol.exe
 
 选择'2'参数,运行即可,最终可以使用的代理池,则会存放在http.txt中.
 
@@ -127,7 +243,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ----
 
-# :walking::开始切换ip
+## :walking::开始切换ip
 
 ![](https://pic1.imgdb.cn/item/67b2af11d0e0a243d400181e.png)
 
@@ -143,7 +259,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ---
 
-# :zap::使用自己的ip池进行切换
+## :zap::使用自己的ip池进行切换
 
 我们只需要把自己的ip存放在output.txt中,再运行 参数 '3',即可进行ip切换
 
@@ -151,19 +267,19 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 # 
 
-# :satisfied:FiFa0-Pro
+# :satisfied::Yccol-Pro
 
 FiFa0-Pro是Fifa0的一个付费版本,可以用户免去配置,以及提供一个永久性的key,让用户体验到高端的且牛逼的一款代理池ip切换工具
 
-FiFa0-Pro是在Fifa0的基础上,进行了进一步优化,和更多的功能,同时操作方式与Fifa0也略有不同
+Yccol-Pro是在Yccol的基础上,进行了进一步优化,和更多的功能,同时操作方式与Yccol也略有不同
 
 
 
-# :satisfied:FiFa0-Pro教程
+## :satisfied:Yccol-Pro教程
 
-首先从作者这里购买FiFa0-Pro版本以后,解压到文件夹,并打开终端,
+首先从作者这里购买Yccol-Pro版本以后,解压到文件夹,并打开终端,
 
-WIndows11,可以直接在FiFa0-Pro版本的目录下右键,从终端打开,
+WIndows11,可以直接在Yccol-Pro版本的目录下右键,从终端打开,
 
 ![](https://pic1.imgdb.cn/item/67b2b183d0e0a243d400192b.png)
 
@@ -175,7 +291,7 @@ WIndows10可以在目录框中,输入CMD或powershell,进行打开,
 
 打开终端后:
 
-运行:fifa-Pro -h
+运行:Yccol-Pro -h
 
 ![](https://pic1.imgdb.cn/item/67b2b383d0e0a243d40019a4.png)
 
@@ -187,41 +303,41 @@ WIndows10可以在目录框中,输入CMD或powershell,进行打开,
 
 自动验证ip参数\指定验证ip池参数\获取指定地域的ip信息\更换ip切换速率\单独的验证ip\保存ip池\以及更新等多个参数.
 
-# :1st_place_medal::基本使用方式
+## :1st_place_medal::基本使用方式
 
 ```
-# 如果情况紧急,请直接使用 -A参数
-fifa-pro -A #会运行整套功能,并自动开启ip切换
+#运行整套功能,并自动开启ip切换
+Yccol-pro -a 
 
 # 获取帮助
-fifa0-pro -h
+Yccol-pro -h
 
 # 获取ip池
-FiFa0-pro -f
+Yccol-pro -f
 
 # 验证ip是否能用
-fifa0-pro -VO
+Yccol-pro -vo
 
 # 验证自己的ip池是否可用
-fifa0-peo -V [自己的ip池txt文件路径] -O [要保存的位置] #注意,此处的-O保存位置,只需要写路径即可,例如/'D:\tools\筛选\'不需要带有文件名称
+Yccol-peo -V [自己的ip池txt文件路径] -O [要保存的位置] #注意,此处的-O保存位置,只需要写路径即可,例如/'D:\tools\筛选\'不需要带有文件名称
 
 # 验证ip池,并保存到output目录中的http.txt文件
-fifa0-pro -V [ip池txt文件路径]
+Yccol-pro -V [ip池txt文件路径]
 
 # 切换ip更换速度
-fifa0-pro -R [速度]  #例如:0.2等于0.2秒
+Yccol-pro -R [速度]  #例如:0.2等于0.2秒
 
 #获取不同地区的ip池
-fifa0-pro -fi [参数] #目前fi参数支持:US(美国),SG(新加坡),KR(韩国),(HK)香港
+Yccol-pro -fi [参数] #目前fi参数支持:US(美国),SG(新加坡),KR(韩国),(HK)香港
 
 #更新软件版本
-fifa0-pro -up
+Yccol-pro -up
 
 #开始切换ip
-fifa0-pro -S
+Yccol-pro -S
 ```
 
-# :o::常见报错
+## :o::常见报错
 
 ![](https://pic1.imgdb.cn/item/67b2ba05d0e0a243d4001a8b.png)
 
@@ -231,7 +347,7 @@ fifa0-pro -S
 
 如果QQ\微信有网络,但是浏览器没有网络,请运行
 
-fifa0-pro -S 后再运行 CTRL+C 停止,即可回复网络
+Yccol-pro -S 后再运行 CTRL+C 停止,即可回复网络
 
 ---
 
@@ -239,7 +355,7 @@ fifa0-pro -S 后再运行 CTRL+C 停止,即可回复网络
 
 ![](https://pic1.imgdb.cn/item/67b2baded0e0a243d4001aaa.png)
 
-那么请使用fifa0-pro -h 进行参数查看
+那么请使用Yccol-pro -h 进行参数查看
 
 ---
 
