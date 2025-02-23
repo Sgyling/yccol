@@ -5,7 +5,8 @@ tags: 代理池
 categories: 渗透
 ---
 
-网盘链接：https://pan.quark.cn/s/c360400b30f1
+Yccol网盘链接：https://pan.quark.cn/s/c360400b30f1
+Yccol-GUI网盘链接:https://pan.quark.cn/s/cb5261057dab
 
 github:https://github.com/Sgyling/yccol
 
