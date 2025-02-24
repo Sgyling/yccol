@@ -1,29 +1,56 @@
 ---
 title: Yccol-全自动代理池更换工具
-date: 2025-02-19 15:46:40
+date: 2025-02-24 15:46:40
 tags: 代理池
 categories: 渗透
 ---
 
-Yccol网盘链接：https://pan.quark.cn/s/c360400b30f1
-Yccol-GUI网盘链接:https://pan.quark.cn/s/cb5261057dab
+Yccol：https://pan.quark.cn/s/3ab113051416
+
+Yccol-GUI连接:https://pan.quark.cn/s/283ac2d54a3e
 
 github:https://github.com/Sgyling/yccol
 
-2.22号 Yccol更名为:Yccol
+带图介绍连接:https://yancy77.cn
+
+2.22号 Fifa0更名为:Yccol
 
 Yccol更新预告
 
 | 版本      | 支持http | 支持socks4 | 支持socks5 | 本次更新内容 |
 | --------- | -------- | ---------- | ---------- | ------------ |
-| Yccol     | √        | ×          | √          | 无           |
-| Yccol-Pro | √        | ×          | √          | 无           |
+| Yccol     | √        | ×          | √          | socks5验证   |
+| Yccol-Pro | √        | ×          | √          | socks5切换   |
 | Yccol-API | √        | ×          | ×          | 内测上线     |
 | Yccol-GUi | √        | ×          | ×          | 内测上线     |
 
 
 
 # 更新内容
+
+## 2.24号Yccol-Pro更新 V1.1.2版本
+
+- [添加] - 添加了-sq 参数,功能为:socks5的代理池切换功能
+- [优化] - 优化了输出外观
+- [优化] - 优化了抓取ip的 速度
+- [更新] - 在不使用参数的情况下,自动输出提示和获取http代理
+- [更新] - 在使用-f 或 没有任何参数时,锁定100个IP源
+
+![](https://pic1.imgdb.cn/item/67bc1fbbd0e0a243d4034abf.png)
+
+---
+
+## 2.24号Yccol更新 V1.1.1 版本
+
+- 添加了socks5的代理验证功能.
+- 固定了socks5代理获取的数量,固定100
+- 修复了部分bug
+
+![](https://pic1.imgdb.cn/item/67bc23ffd0e0a243d403501e.png)
+
+---
+
+
 
 ## 2.23号 Yccol-GUI内测上线
 
@@ -80,8 +107,6 @@ Yccol-GUI是一款获取代理池工具的软件,而且支持验证代理的工�
 ## 2.22号 Yccol更名为:Yccol
 
 ## - Yccol-API内测上线
-
-
 
 ```
 请求:GET
