@@ -18,7 +18,7 @@ print(a,'\n\n1:获取http代理\n2:获取socks5代理\n3:验证http代理\n\n4.�
 user_input = input('请输入上方所提示的数字\n:')
 
 if user_input == '1':
-    print('--- 获取socks5代理池 ---')
+    print('--- 获取http代理池 ---')
     file_path = f"output/proxy.txt"
     with open(file_path, "w") as file:
         pass

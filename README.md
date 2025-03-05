@@ -11,15 +11,9 @@ Yccol成品下载:https://pan.quark.cn/s/16ab575efaf0
 
 其他版本,请联系:微信:Yancy_76,或QQ: 323002946,进行下载
 
-帮助文档:
-
-
-
 # 更新内容 
 
 最新版本:Yccol-Pro V1.3.1
-
-
 
 全部的更新历史:
 
@@ -62,21 +56,17 @@ $ python Yccol.py # 即可开始运行
 
 config/conf.txt中存在两个参数
 
-分别为:key 和get_time两个参数,
+分别为local_port=和get_time两个参数,
 
-key中要填写,fofa的key,
+get_time 为切换时间的参数.
 
-![](https://pic1.imgdb.cn/item/67b2a9fed0e0a243d40016f6.png)
-
-fofa的key,需要复制这里的代理,并且粘贴到key参数中,并且fofa中需要有f点及打开F点权益才可以正常使用
-
-![](https://pic1.imgdb.cn/item/67b2aa70d0e0a243d4001710.png)
+local_port 为端口号
 
 ---
 
 get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次代理.默认为0.2
 
-![](https://pic1.imgdb.cn/item/67b2a8cbd0e0a243d4001682.png)
+![](https://pic1.imgdb.cn/item/67c7dbaad0e0a243d40c41f4.png)
 
 那么到这里,配置完成
 
@@ -86,7 +76,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ## :ice_hockey:获取ip代理
 
-![](https://pic1.imgdb.cn/item/67b2ab02d0e0a243d4001727.png)
+![](https://pic1.imgdb.cn/item/67c7dc1ad0e0a243d40c420e.png)
 
 ---
 
@@ -94,29 +84,23 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 运行以后,会出现以下界面,
 
-![](https://pic1.imgdb.cn/item/67b2aba3d0e0a243d4001745.png)
+![](https://pic1.imgdb.cn/item/67c7dce6d0e0a243d40c423a.png)
 
-![](https://pic1.imgdb.cn/item/67b2abb7d0e0a243d400174b.png)
+---
 
-![](https://pic1.imgdb.cn/item/67b2abe2d0e0a243d400174f.png)
+输入2以后,会获取socks5代理
 
-![](https://pic1.imgdb.cn/item/67b2ac33d0e0a243d400175c.png)
-
-以上情况均为正常情况.
-
-等待完成即可~完成以后如下图,(如果是双击打开的,则完成后会直接退出)
-
-![](https://pic1.imgdb.cn/item/67b2ad08d0e0a243d4001791.png)
+![获取sosks5](https://pic1.imgdb.cn/item/67c7dc78d0e0a243d40c421e.png)
 
 ---
 
 ## :airplane::验证代理
 
-![](https://pic1.imgdb.cn/item/67b2ad59d0e0a243d40017ad.png)
+![](https://pic1.imgdb.cn/item/67c7dc1ad0e0a243d40c420e.png)
 
-输入2以后,会将output/proxy.txt中的代理,进行批量验证,最终保存到output/http.txt文件当中.
+输入3以后,会将output/proxy.txt中的代理,进行批量验证,最终保存到output/http.txt文件当中.
 
-![](https://pic1.imgdb.cn/item/67b2ada1d0e0a243d40017c5.png)
+![](https://pic1.imgdb.cn/item/67c7dd2bd0e0a243d40c4244.png)
 
 ---
 
@@ -136,7 +120,7 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 存放完成后,保存,运行Yccol.exe
 
-选择'2'参数,运行即可,最终可以使用的代理池,则会存放在http.txt中.
+选择'3'参数,运行即可,最终可以使用的代理池,则会存放在http.txt中.
 
 ![](https://pic1.imgdb.cn/item/67b2aeccd0e0a243d4001802.png)
 
@@ -146,31 +130,25 @@ get_time中需要填写代理的切换时间,0.2则是0.2秒进行切换一次�
 
 ## :walking::开始切换ip
 
-![](https://pic1.imgdb.cn/item/67b2af11d0e0a243d400181e.png)
+![](https://pic1.imgdb.cn/item/67c7dc1ad0e0a243d40c420e.png)
 
-输入'3'即可开始切换代理ip,切换ip速度,取决了config/conf.txt中的get_time参数
+输入'4'即可开始切换代理ip,切换ip速度,取决了config/conf.txt中的get_time参数
 
-![](https://pic1.imgdb.cn/item/67b2af53d0e0a243d4001839.png)
+![](https://pic1.imgdb.cn/item/67c7dd74d0e0a243d40c4253.png)
 
-![](https://pic1.imgdb.cn/item/67b2af67d0e0a243d4001845.png)
 
-![](https://pic1.imgdb.cn/item/67b2af9bd0e0a243d4001874.png)
 
-如果需要停止,则使用CTRL+C即可停止
+如果需要停止,则使用CTRL+C或者直接关闭即可停止
 
 ---
 
 ## :zap::使用自己的ip池进行切换
 
-我们只需要把自己的ip存放在output.txt中,再运行 参数 '3',即可进行ip切换
-
-
-
-# 
+我们只需要把自己的ip存放在http.txt中,再运行 参数 '4',即可进行ip切换
 
 # :satisfied::Yccol-Pro
 
-FiFa0-Pro是Fifa0的一个付费版本,可以用户免去配置,以及提供一个永久性的key,让用户体验到高端的且牛逼的一款代理池ip切换工具
+Yccol-Pro是Yccol的一个付费版本,可以用户免去配置,以及提供一个key,让用户体验到高端的且牛逼的一款代理池ip切换工具
 
 Yccol-Pro是在Yccol的基础上,进行了进一步优化,和更多的功能,同时操作方式与Yccol也略有不同
 
@@ -194,7 +172,7 @@ WIndows10可以在目录框中,输入CMD或powershell,进行打开,
 
 运行:Yccol-Pro -h
 
-![](https://pic1.imgdb.cn/item/67b2b383d0e0a243d40019a4.png)
+![](https://pic1.imgdb.cn/item/67c7ddc3d0e0a243d40c425f.png)
 
 即可显示参数
 
@@ -228,8 +206,6 @@ Yccol-pro -V [ip池txt文件路径]
 # 切换ip更换速度
 Yccol-pro -R [速度]  #例如:0.2等于0.2秒
 
-#获取不同地区的ip池
-Yccol-pro -fi [参数] #目前fi参数支持:US(美国),SG(新加坡),KR(韩国),(HK)香港
 
 #更新软件版本
 Yccol-pro -up
@@ -237,6 +213,8 @@ Yccol-pro -up
 #开始切换ip
 Yccol-pro -S
 ```
+
+更多参数介绍,请在https://yccol.cc/Yccol-Help.html#pro 中进行查看
 
 ## :o::常见报错
 
@@ -263,6 +241,8 @@ Yccol-pro -S 后再运行 CTRL+C 停止,即可回复网络
 运行之后闪退
 
 请在终端中运行即可.
+
+## 更多错误,请在https://yccol.cc/Yccol-Help.html#pro 中进行查看
 
 ---
 
