@@ -5,24 +5,30 @@ tags: 代理池
 categories: 渗透
 ---
 
-Yccol：https://pan.quark.cn/s/3ab113051416
+Yccol官网:https://Yccol.cc   
 
-Yccol-GUI连接:https://pan.quark.cn/s/283ac2d54a3e
+Yccol成品下载:https://pan.quark.cn/s/16ab575efaf0
 
-github:https://github.com/Sgyling/yccol
+Yccol-GUI V0.03版本:https://pan.quark.cn/s/bba82a219281
 
-带图介绍连接:https://yancy77.cn
+其他版本,请联系:微信:Yancy_76,或QQ: 323002946,进行下载
 
-2.22号 Fifa0更名为:Yccol
 
-Yccol更新预告
 
-| 版本      | 支持http | 支持socks4 | 支持socks5 | 本次更新内容 |
-| --------- | -------- | ---------- | ---------- | ------------ |
-| Yccol     | √        | ×          | √          | socks5验证   |
-| Yccol-Pro | √        | ×          | √          | socks5切换   |
-| Yccol-API | √        | ×          | ×          | 内测上线     |
-| Yccol-GUi | √        | ×          | ×          | 内测上线     |
+# 下载安装以及使用:
+
+```
+# 注意:Win下需要先安装git命令
+$ git clone https://github.com/Sgyling/yccol
+$ pyhton -m pip install -r requirements.txt
+$ python Yccol.py # 即可开始运行
+
+## 当然哈,咱也可以下载成品 下载链接: https://pan.quark.cn/s/06e0a22c2189
+## 成品使用方式,双击打开即可.
+## 用法可以往下看一看
+```
+
+
 
 
 
