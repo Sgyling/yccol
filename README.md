@@ -28,7 +28,7 @@ https://yancy77.cn/2025/03/01/Yccol-%E5%9F%BA%E4%BA%8Efofa%E7%9A%84%E5%85%A8%E8%
 ```
 # 注意:Win下需要先安装git命令
 $ git clone https://github.com/Sgyling/yccol
-$ pyhton -m pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 $ python Yccol.py # 即可开始运行
 
 ## 当然哈,咱也可以下载成品 下载链接: https://pan.quark.cn/s/06e0a22c2189
