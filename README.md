@@ -7,7 +7,7 @@ categories: 渗透
 
 Yccol官网:https://Yccol.cc   
 
-Yccol成品下载:https://pan.quark.cn/s/16ab575efaf0
+Yccol 基础'新'版:V1.2.0 下载:https://pan.quark.cn/s/16ab575efaf0
 
 其他版本,请联系:微信:Yancy_76,或QQ: 323002946,进行下载
 
