@@ -7,7 +7,7 @@ import json
 #     print(html)
 def get_http():
 
-    api_url = "http://api.Yccol.cc:3751/api/v2/http"
+    api_url = "http://api.Yancy77.cn:3751/api/v2/http"
     save_path = "output/proxy.txt"  # 保存文件名可自定义
 
     try:
