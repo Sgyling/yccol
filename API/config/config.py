@@ -2,7 +2,7 @@ import os
 import requests
 import uuid
 
-fofa_key = 'f0813b21495b6eaaa61f51c8ad0df815'
+fofa_key = ''
 get_socks5='cHJvdG9jb2w9PSJzb2NrczUiICYmICJWZXJzaW9uOjUgTWV0aG9kOk5vIEF1dGhlbnRpY2F0aW9uKDB4MDApIiAmJiBhZnRlcj0iMjAyNC0xMi0yMCI%3D&full=ture&size=1000'
 
 ##############################################
