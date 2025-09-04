@@ -6,7 +6,7 @@
 
 Yccol 是一个基于 FOFA 搜索引擎抓取的代理池工具，提供多种版本以满足不同用户需求。该系统能够自动获取、验证和管理代理 IP，支持 HTTP、HTTPS 和 SOCKS5 等多种代理协议，并提供 API 接口、命令行工具和图形界面等多种使用方式。
 
-查看框架请查看 [arch.md]()
+查看框架请查看 [arch.md](arch.md)
 
 ## 项目版本
 
@@ -96,6 +96,16 @@ python app.py
 ```
 http://localhost:5000/api/users?key=your_api_key&proxy=http&area=cn
 ```
+
+#### 开启地区验证功能
+
+```
+# https://pan.quark.cn/s/5aa2cd9a42f3
+# 访问上述链接,然后下载文件夹中的两个BIN文件.
+# 将两个BIN文件存放在API/config中后,启动API即可
+```
+
+
 
 ### Pro 版本使用
 
@@ -259,8 +269,10 @@ port='33333'  # 代理端口号
 ## 联系方式
 
 - B站UP主：疯狂的杨CC
-- QQ：323002946
+- QQ：1041041042
 - 微信：Yancy_76
+- 支持一下up主
+- ![er_wei_ma](er_wei_ma.jpg)
 
 ## 版本信息
 
