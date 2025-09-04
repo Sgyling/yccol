@@ -1,0 +1,4 @@
+pyOpenSSL==24.2.1
+pyOpenSSL==25.0.0
+Requests==2.32.3
+SocksiPy_branch==1.01
